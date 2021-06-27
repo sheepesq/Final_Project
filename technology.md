@@ -5,7 +5,8 @@ Within Jupyter Notebook, we will utilize Pandas to read and clean the data, and 
 More extensive study will later be executed using Numpy for advanced calculations and Plotly for visualization.
 
 ### Database Storage
-We intend to use PostgreSQL as our database management system.
+We intend to use PostgreSQL as our database management system.  We will also look to create an RDS through Amazon WEb Services and use PySpark to connect our data 
+to PgAdmin
 
 ### Machine Learning
 SciKit-Learn is the Machine Learning library for our project. We will apply the train_test_split technique and random forest for our 
