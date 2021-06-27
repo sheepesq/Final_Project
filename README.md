@@ -1,6 +1,8 @@
-# Final_Project #
-- We are taking the last four years of May data from [Citi Bike](https://s3.amazonaws.com/tripdata/index.html) to track the changes of rider usage.
+# Miscreants Final Project #
 
+## Presentation ##
+- We are taking the last four years of May data from [Citi Bike](https://s3.amazonaws.com/tripdata/index.html) to track the changes of rider usage.
+- In addition, we have selected this topic as group as we are interested if machine learning can be used to accurately predict rider destination and/or if they are a citibike Subscriber or a Customer (single user), using the above Citi Bike data. 
 
 ## Team Member's Role (Individual Branches) ##
 - Square:[Brian](https://github.com/sheepesq/Final_Project/tree/sheepesq_branch)
