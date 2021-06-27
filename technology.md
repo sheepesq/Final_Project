@@ -1,7 +1,7 @@
 # Technologies Used
 
 ### Data Cleaning and Analysis
-Using Jupyter Notebook, we will utilize Pandas to clean the data and perform our initial analysis. 
+Within Jupyter Notebook, we will deploy Pandas to clean the data and perform our initial analysis. 
 More extensive analysis will later be executed using Pandas, Numpy for advanced calculations and Plotly for visualization.
 
 ### Database Storage
