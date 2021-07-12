@@ -32,6 +32,19 @@ With the results of our analysis
 LINK HERE
 
 ## CODE ##
+#### Preliminary data preprocessing and preliminary feature engineering:
+  - The "allmay_df" and "allstations_df" data was imported to pandas dataframes, then preprocessed as follows: Datatypes were determined for all columns.  Null values were checked and null rows were then removed.  All Station Name columns were removed (we have station ID columns in place already).  The "usertype" column was transformed from 'Subscriber'/'Customer' to a binary integer column of  0 / 1.  Startime and stoptime columns were transformed from string to datetime.
+  
+#### Description of preliminary feature selection:
+  - The preliminary targets will be usertype and gender.  We want to use our models to determine whether we can predict either of these traits based on Citibike useage patterns.
+
+#### Description of how data was split into training and testing sets:
+  - We are using the default training/testing split of 75/25.
+
+#### Explanation of model choice, including limitations and benefits:
+  - We are initilally using logistic regression and Random Forest (Regressor).  We are analyzing data that is largely categorical and want to try both a simpler evaluation and a more robust evaluation.  Random forest is appropriate because it can handle binary features, categorical features, and numerical features, with little pre-processing that needs to be done.  We expect to investigate other neural network approaches as well, so the data will be scaled and prepared for those models too.  Because our datasets are relatively large, we will use a simpler logistic regression model as well.
+
+
 
 LINK HERE
 
