@@ -5,4 +5,6 @@ https://docs.google.com/presentation/d/1R1OLPFjdf9XXZaw83_yAC0UdfwkrlQ2RYni-C662
 
 Tableau Link -- Final Project -- NYC Citibike Dashboard
 
+https://public.tableau.com/app/profile/christopher.grunsfeld/viz/Citibike-FinalProject/NYCCITBIKEDASHBOARDMAIN?publish=yes
+
 
