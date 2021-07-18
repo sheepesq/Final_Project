@@ -10,9 +10,6 @@
 - Circle: [Jen](https://github.com/sheepesq/Final_Project/tree/azarowj_branch)
 - X: [Chris](https://github.com/sheepesq/Final_Project/tree/cgruns4_branch)
 
-## Communication protocols ##
--Team has exchanged personal phone numbers, share information over slack and have scheduled meets over zoom
-
 ## Outline ## 
 
 ###  Data  ### 
