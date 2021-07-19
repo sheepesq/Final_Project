@@ -51,7 +51,7 @@ allstations_df             |  allmay_df
   - We are initilally using logistic regression and Random Forest (Classifier).  We are analyzing data that is largely categorical and want to try both a simpler evaluation and a more robust evaluation.  Random forest is appropriate because it can handle binary features, categorical features, and numerical features, with little pre-processing that needs to be done.  We expect to investigate other neural network approaches as well, so the data will be scaled and prepared for those models too.  Because our datasets are relatively large, we will use a simpler logistic regression model as well.
 
 ### Explanation of changes in model choice and training of the model
-  - For the first question of whether the data can predict usertype, we have used the Random Forest, Logistic Regression and a basic Neural Network.  For the new question of whether the data can predict End Station based on Start Station data, we used Random Forest with success, but found that Logistic Regression and a basic Neural Network both gave unsatisfactory results.
+  - For the first question of whether the data can predict usertype, we have used the Random Forest model, Logistic Regression and a basic Neural Network.  For the new question of whether the data can predict End Station based on Start Station data, we used Random Forest with success, but Logistic Regression and a basic Neural Network have both given unsatisfactory results.
 ### Description of current accuracy score
   - Accuracy score for predicting usertype is currently as follows: Random Forest 95.8%; Logistic Regression 90.9%; Neural Network 95.1%.  For predicting end station based on start station data, our current accuracy score is as follows:  Random Forest 90.5%.
 
