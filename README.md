@@ -1,5 +1,9 @@
 # Miscreants Final Project #
 
+<img src = "https://github.com/sheepesq/Final_Project/blob/sheepesq_branch/pictures/citibike_img.png" width = "1100" height = "250">
+
+
+
 ## Presentation ##
 - Our source data is the May data from 2016 to 2019 from [Citi Bike](https://s3.amazonaws.com/tripdata/index.html) to track the changes of rider usage.
 - We have selected this topic to determine if machine learning can be used to accurately predict rider destination and/or if they are a citibike Subscriber or a Customer (single user), using the above Citi Bike data. 
