@@ -50,6 +50,22 @@ allstations_df             |  allmay_df
 ### Explanation of model choice, including limitations and benefits: ###
   - We are initilally using logistic regression and Random Forest (Regressor).  We are analyzing data that is largely categorical and want to try both a simpler evaluation and a more robust evaluation.  Random forest is appropriate because it can handle binary features, categorical features, and numerical features, with little pre-processing that needs to be done.  We expect to investigate other neural network approaches as well, so the data will be scaled and prepared for those models too.  Because our datasets are relatively large, we will use a simpler logistic regression model as well.
 
+### 
+
+### The Machine learning code comprises 5 ipynb files:
+  - Citibike_project.ipynb
+Initial exploratory/project discussion code. No final project code.
+  - Citibike_project-Copy1.ipynb
+Preprocessing and exploratory code for May datasets and Station datasets, culminating in allmay_cleaned.csv and allstations_cleaned.csv.
+  - Citibike_RF.ipynb
+Analysis (Random Forest, Logistic regression, neural network)
+  - Citibike_allMay_additional_analysis.ipynb
+Google Collab nb for additional processing, feature engineering and analysis on allMay data
+  - Citibike_allStations_exploration_addl_processing.ipynb
+Addl. preprocessing, feature engineering and exploratory code for allStations data
+  - Citibike_station422.ipynb
+Code for station 422 analysis, to determine predictability of "end stations"
+
 Our code for the above can be found [HERE](https://github.com/sheepesq/Final_Project/blob/JohnRamonetti_branch/Citibike_project-Copy1.ipynb). 
 
 ## Tableau ##
