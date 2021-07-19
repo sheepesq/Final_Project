@@ -69,6 +69,6 @@ Code for station 422 analysis, to determine predictability of "end stations"
 Our code for the above can be found [HERE](https://github.com/sheepesq/Final_Project/blob/JohnRamonetti_branch/Citibike_project-Copy1.ipynb). 
 
 ## Tableau ##
-An interactive display has been created on [Tableau](https://public.tableau.com/app/profile/christopher.grunsfeld/viz/Citibike-FinalProject/NYCCITBIKEDASHBOARDMAIN?publish=yes). It provides the user with easy to interpret data charts that are interactive and a map that allows the user to select one of the many Citi Bike stations to learn more about it. 
+An interactive display has been created on [Tableau](https://public.tableau.com/app/profile/christopher.grunsfeld/viz/Citibike-FinalProject/NYCCITBIKEDASHBOARDMAIN?publish=yes). It provides the user with interactive data charts that are easy to interpret and a map that allows the user to select one of the many Citi Bike stations to learn more about it. 
 
 
