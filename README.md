@@ -1,6 +1,6 @@
 # Miscreants Final Project #
 
-<img src = "https://github.com/sheepesq/Final_Project/blob/sheepesq_branch/pictures/citibike_img.png" width = "1100" height =  "250">
+<img src = "https://github.com/sheepesq/Final_Project/blob/sheepesq_branch/pictures/citibike_img.png" width = "1100" height = "250">
 
 
 
@@ -50,7 +50,10 @@ allstations_df             |  allmay_df
 ### Explanation of model choice, including limitations and benefits: ###
   - We are initilally using logistic regression and Random Forest (Regressor).  We are analyzing data that is largely categorical and want to try both a simpler evaluation and a more robust evaluation.  Random forest is appropriate because it can handle binary features, categorical features, and numerical features, with little pre-processing that needs to be done.  We expect to investigate other neural network approaches as well, so the data will be scaled and prepared for those models too.  Because our datasets are relatively large, we will use a simpler logistic regression model as well.
 
-### 
+### Explanation of changes in model choice and training of the model
+  - For the first question of whether the data can predict usertype, we have used the Random Forest, Logistic Regression and a basic Neural Network.  For the new question of whether the data can predict End Station based on Start Station data, we found used Random Forest with success, but found that Logistic Regression and a basic Neural Network both gave unsatisfactory results.
+### Description of current accuracy score
+  - Accuracy score for predicting usertype is currently as follows: Random Forest 95.8%; Logistic Regression 90.9%; Neural Network 95.1%.  For predicting end station based on start station data, our current accuracy score is as follows:  Random Forest 90.5%.
 
 ### The Machine learning code comprises 6 .ipynb files:
   - Citibike_project.ipynb:  
@@ -69,6 +72,6 @@ Code for station 422 analysis, to determine predictability of "end stations"
 Our code for the above can be found [HERE](https://github.com/sheepesq/Final_Project/blob/JohnRamonetti_branch/Citibike_project-Copy1.ipynb). 
 
 ## Tableau ##
-An interactive display has been created on [Tableau](https://public.tableau.com/app/profile/christopher.grunsfeld/viz/Citibike-FinalProject/NYCCITBIKEDASHBOARDMAIN?publish=yes). It provides the user with interactive data charts that are easy to interpret and a map that allows the user to select one of the many Citi Bike stations to learn more about it. 
+An interactive display has been created on [Tableau](https://public.tableau.com/app/profile/christopher.grunsfeld/viz/Citibike-FinalProject/NYCCITBIKEDASHBOARDMAIN?publish=yes). It provides the user with easy to interpret data charts that are interactive and a map that allows the user to select one of the many Citi Bike stations to learn more about it. 
 
 
