@@ -7,7 +7,7 @@
 ## Presentation ##
 - Our source data is the May data from 2016 to 2019 from [Citi Bike](https://s3.amazonaws.com/tripdata/index.html) to track the changes of rider usage.
 - We have selected this topic to determine if machine learning can be used to accurately predict rider destination and/or if they are a citibike Subscriber or a Customer (single user), using the above Citi Bike data. 
-- A description of our groups data exploration and analysis can be found on our group's [Google Slide](www.google.com) presentation. 
+- A presentation of our groups data exploration and analysis can be found on our group's [Google Slide](https://docs.google.com/presentation/d/1G3FLyjWYwFp6X2XTLSqYK6MztNdIhv8ljfRgmgMvR7E/edit?usp=sharing). 
 
 ## Team Member's Role (Individual Branches) ##
 - Square:[Brian](https://github.com/sheepesq/Final_Project/tree/sheepesq_branch)
