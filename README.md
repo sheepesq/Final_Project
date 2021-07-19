@@ -56,7 +56,7 @@ allstations_df             |  allmay_df
   - Accuracy score for predicting usertype is currently as follows: Random Forest 95.8%; Logistic Regression 90.9%; Neural Network 95.1%.  For predicting end station based on start station data, our current accuracy score is as follows:  Random Forest 90.5%.
 
 ### The Machine learning code comprises 6 .ipynb files:
-  - Citibike_project.ipynb:  
+  - [Citibike_project.ipynb](Citibike_project.ipynb):  
 Initial exploratory/project discussion code. No final project code.
   - Citibike_project-Copy1.ipynb:  
 Preprocessing and exploratory code for May datasets and Station datasets, culminating in allmay_cleaned.csv and allstations_cleaned.csv.
