@@ -32,8 +32,8 @@ To interpret our data we have selected random forest. The reasoning behind selec
 A futher breakdown of our outline can be found [HERE](https://docs.google.com/presentation/d/1R1OLPFjdf9XXZaw83_yAC0UdfwkrlQ2RYni-C662-nk/edit#slide=id.p). On our Google slide presentation.
 
 ## CODE ##
-### Preliminary data preprocessing and preliminary feature engineering: ###
-  - The "allmay_df" and "allstations_df" data was imported to pandas dataframes, then preprocessed as follows: Datatypes were determined for all columns. A sample of those two dataframes can be seen below. Null values were checked and null rows were then removed.  All Station Name columns were removed (we have station ID columns in place already).  The "usertype" column was transformed from 'Subscriber'/'Customer' to a binary integer column of  0 / 1.  Startime and stoptime columns were transformed from string to datetime.
+### Preliminary data preprocessing and feature engineering: ###
+  - The "allmay_df" and "allstations_df" data was imported to pandas dataframes, then preprocessed as follows: Datatypes were determined for all columns. A sample of those two dataframes can be seen below. Null values were checked and null rows were then removed.  All Station Name columns were removed (we have station ID columns in place already).  The "usertype" column was transformed from 'Subscriber'/'Customer' to a binary integer column of  0 / 1.  Starttime and stoptime columns were transformed from string to datetime.  We then split the Starttime column into 'year', 'month', 'day', 'hour' and 'minute'.  For the allStation data, the 'date' column was split into 'year', 'month' and 'day' columns.  A dataframe was created for the Station422 analysis from the allmay_df that was filtered for entries with start station id of 422 (corresponding to the 'W 59 St & 10 Ave' station).  In addition to the above preprocessing/engineering, from this dataset all columns with only 1 (one) unique value were dropped.
 
 
 allstations_df             |  allmay_df
@@ -41,17 +41,17 @@ allstations_df             |  allmay_df
 ![](https://github.com/sheepesq/Final_Project/blob/sheepesq_branch/pictures/allstations_df.png)   |  ![](https://github.com/sheepesq/Final_Project/blob/sheepesq_branch/pictures/Allmay_DF.png)
 
   
-### Description of preliminary feature selection: ###
-  - The preliminary targets will be usertype and gender.  We want to use our models to determine whether we can predict either of these traits based on Citibike useage patterns.
+### Description of feature selection: ###
+  - The preliminary targets we have used are usertype and gender.  We want to use our models to determine whether we can predict either of these traits based on Citibike useage patterns.  After exploring the data more, we have decided to also determine whether we can predict 'end station' based on data from specific start stations.  We felt that this information would be a useful step toward understanding useage patterns and bicycle migration throughout the Citibike system.  For this we used a subset of the data limited to one busy station (W 59 St & 10 Ave) and used 'end station id' for the target feature.
 
 ### Description of how data was split into training and testing sets: ###
   - We are using the default training/testing split of 75/25.
 
 ### Explanation of model choice, including limitations and benefits: ###
-  - We are initilally using logistic regression and Random Forest (Regressor).  We are analyzing data that is largely categorical and want to try both a simpler evaluation and a more robust evaluation.  Random forest is appropriate because it can handle binary features, categorical features, and numerical features, with little pre-processing that needs to be done.  We expect to investigate other neural network approaches as well, so the data will be scaled and prepared for those models too.  Because our datasets are relatively large, we will use a simpler logistic regression model as well.
+  - We are initilally using logistic regression and Random Forest (Classifier).  We are analyzing data that is largely categorical and want to try both a simpler evaluation and a more robust evaluation.  Random forest is appropriate because it can handle binary features, categorical features, and numerical features, with little pre-processing that needs to be done.  We expect to investigate other neural network approaches as well, so the data will be scaled and prepared for those models too.  Because our datasets are relatively large, we will use a simpler logistic regression model as well.
 
 ### Explanation of changes in model choice and training of the model
-  - For the first question of whether the data can predict usertype, we have used the Random Forest, Logistic Regression and a basic Neural Network.  For the new question of whether the data can predict End Station based on Start Station data, we found used Random Forest with success, but found that Logistic Regression and a basic Neural Network both gave unsatisfactory results.
+  - For the first question of whether the data can predict usertype, we have used the Random Forest, Logistic Regression and a basic Neural Network.  For the new question of whether the data can predict End Station based on Start Station data, we used Random Forest with success, but found that Logistic Regression and a basic Neural Network both gave unsatisfactory results.
 ### Description of current accuracy score
   - Accuracy score for predicting usertype is currently as follows: Random Forest 95.8%; Logistic Regression 90.9%; Neural Network 95.1%.  For predicting end station based on start station data, our current accuracy score is as follows:  Random Forest 90.5%.
 
