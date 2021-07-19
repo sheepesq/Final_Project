@@ -3,6 +3,7 @@
 ## Presentation ##
 - Our source data is the May data from 2016 to 2019 from [Citi Bike](https://s3.amazonaws.com/tripdata/index.html) to track the changes of rider usage.
 - We have selected this topic to determine if machine learning can be used to accurately predict rider destination and/or if they are a citibike Subscriber or a Customer (single user), using the above Citi Bike data. 
+- A description of our groups data exploration and analysis can be found on our group's [Google Slide](www.google.com) presentation. 
 
 ## Team Member's Role (Individual Branches) ##
 - Square:[Brian](https://github.com/sheepesq/Final_Project/tree/sheepesq_branch)
@@ -47,5 +48,7 @@ allstations_df             |  allmay_df
 
 Our code for the above can be found [HERE](https://github.com/sheepesq/Final_Project/blob/JohnRamonetti_branch/Citibike_project-Copy1.ipynb). 
 
+## Tableau ##
+An interactive display has been created on [Tableau](https://public.tableau.com/app/profile/christopher.grunsfeld/viz/Citibike-FinalProject/NYCCITBIKEDASHBOARDMAIN?publish=yes). It provides the user with easy to interpret data charts that are interactive and a map that allows the user to select one of the many Citi Bike stations to learn more about it. 
 
 
