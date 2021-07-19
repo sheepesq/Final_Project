@@ -52,18 +52,18 @@ allstations_df             |  allmay_df
 
 ### 
 
-### The Machine learning code comprises 5 ipynb files:
-  - Citibike_project.ipynb
+### The Machine learning code comprises 6 .ipynb files:
+  - Citibike_project.ipynb:  
 Initial exploratory/project discussion code. No final project code.
-  - Citibike_project-Copy1.ipynb
+  - Citibike_project-Copy1.ipynb:  
 Preprocessing and exploratory code for May datasets and Station datasets, culminating in allmay_cleaned.csv and allstations_cleaned.csv.
-  - Citibike_RF.ipynb
+  - Citibike_RF.ipynb:  
 Analysis (Random Forest, Logistic regression, neural network)
-  - Citibike_allMay_additional_analysis.ipynb
+  - Citibike_allMay_additional_analysis.ipynb:  
 Google Collab nb for additional processing, feature engineering and analysis on allMay data
-  - Citibike_allStations_exploration_addl_processing.ipynb
+  - Citibike_allStations_exploration_addl_processing.ipynb:  
 Addl. preprocessing, feature engineering and exploratory code for allStations data
-  - Citibike_station422.ipynb
+  - Citibike_station422.ipynb:  
 Code for station 422 analysis, to determine predictability of "end stations"
 
 Our code for the above can be found [HERE](https://github.com/sheepesq/Final_Project/blob/JohnRamonetti_branch/Citibike_project-Copy1.ipynb). 
