@@ -4,3 +4,4 @@ Final Project
 - start week 2 work
 - 
 -start week 3 work
+-remove comm from main readme
